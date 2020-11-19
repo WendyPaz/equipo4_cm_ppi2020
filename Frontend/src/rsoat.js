@@ -4,16 +4,10 @@ import './styles.css';
 class Rsoat extends React.Component {
   render() {
     function confirmExit() {
-      var respuesta = confirm("¿Estás seguro de que quieres Salir?");
-
-      if (respuesta == true) {
-        return true;
-      } else {
-        return false;
+      var respuesta = alert("Acabas de Salir de Physco");
       }
-    }
     return (
-      <div className="bg-primary">
+      <div className="color">
   <div className="container">
      <div className="bg-light text-center">
        <h2 class="float-center">PHYSCO</h2>
@@ -47,12 +41,8 @@ Salir
   <label for="formGroupExampleInput2">Fecha de Expedición</label>
     <input type="date" class="form-control" id="formGroupExampleInput2" required/>
   </div>
-  <div class="form-group">
-  <label for="formGroupExampleInput2">Fecha de Caducidad </label>
-    <input type="date" class="form-control" id="formGroupExampleInput2" required/>
-  </div>
   <div className = "text-center">
-        <Link to="Home" class="btn btn-dark btn-lg">Registrar SOAT</Link>
+        <Link to="Home" class="btn btn-dark btn-lg">Registrar</Link>
 
         </div>
         </form> 
