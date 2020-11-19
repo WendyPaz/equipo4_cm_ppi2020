@@ -2,27 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
 import boton from "./plus.png";
-class Home extends React.Component {
+export default class Home extends React.Component {
   render() {
     function confirmExit() {
-      var respuesta = confirm("¿Estás seguro de que quieres Salir?");
-
-      if (respuesta == true) {
-        return true;
-      } else {
-        return false;
-      }
+    var respuesta = alert("Acabas de salir de Physco");
     }
-    return (
-      <div className="bg-primary">
-        <div className="container">
+    
+    return(
+      <div className="color">
+       <div className="container">
           <div className="bg-light text-center">
             <h2 class="float-center">PHYSCO</h2>
-            <Link
-              to=""
-              class="btn btn-outline-dark float-right"
-              onClick={confirmExit}
-            >
+            <Link to="" 
+            class="btn btn-outline-dark float-right"
+              onClick={confirmExit}>
               <svg
                 width="1em"
                 height="1em"
@@ -41,7 +34,7 @@ class Home extends React.Component {
                 />
               </svg>
               Salir
-            </Link>
+         </Link>
           </div>
           <h3> Mi placa: ABC123</h3>
           <br />
@@ -86,6 +79,5 @@ class Home extends React.Component {
         </div>
       </div>
     );
-  }
-}
-export default Home;
+    }
+    }
