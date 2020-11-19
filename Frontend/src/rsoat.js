@@ -38,7 +38,7 @@ Salir
     <input type="text" class="form-control text-uppercase" id="formGroupExampleInput2" required/>
   </div>
   <div class="form-group">
-  <label for="formGroupExampleInput2">Fecha de Expedición</label>
+  <label for="formGroupExampleInput2">Fecha de Caducidad</label>
     <input type="date" class="form-control" id="formGroupExampleInput2" required/>
   </div>
   <div className = "text-center">
