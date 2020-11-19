@@ -8,20 +8,13 @@ import { Link } from 'react-router-dom';
 
 class Misv extends React.Component {
   render() {
-     function confirmDelete() {
-        var respuesta = confirm("¿Estás seguro de que quieres eliminar éste Vehículo?");
-
-        if (respuesta == true) {
-          return true;
-        }
-        else{
-          return false;
-        }
+    function confirmExit() {
+      var respuesta = alert("Acabas de eliminar un vehículo");
       }
 
 
   return (
-    <div className="bg-primary">
+    <div className="color">
     <div className="container">
        <div className="bg-light text-center">
          <h2 class="float-center">PHYSCO</h2>
