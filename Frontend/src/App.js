@@ -6,7 +6,7 @@ import './styles.css';
 class App extends React.Component {
 render() {
   return (
-    <div className="bg-primary">
+    <div className="bg-color">
     <div className="container">
       <div className="text-center" >
         <h1 className="display-1">PHYSCO</h1>
