@@ -38,10 +38,6 @@ render() {
     <input type="text" class="form-control text-uppercase" id="formGroupExampleInput2" required/>
   </div>
   <div class="form-group">
-  <label for="formGroupExampleInput2">Fecha de Expedición (SOAT)</label>
-    <input type="date" class="form-control" id="formGroupExampleInput2" required/>
-  </div>
-  <div class="form-group">
   <label for="formGroupExampleInput2">Fecha de Caducidad (SOAT)</label>
     <input type="date" class="form-control" id="formGroupExampleInput2" required/>
   </div>
