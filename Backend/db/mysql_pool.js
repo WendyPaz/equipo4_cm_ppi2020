@@ -2,11 +2,12 @@ const util = require('util')
 var mysql = require('mysql');
 require('dotenv').config()
 var mysqlConnection  = mysql.createPool({
-  connectionLimit: 10,
-  host:"b7kpfpmz9agyxi4ysfhb-mysql.services.clever-cloud.com",
-  user:"untzi9qxelhibcuy",
-  password:"XcZ2jlw3FviKmbSc7Fxd",
-  database:"b7kpfpmz9agyxi4ysfhb"
+  connectionLimit : 10,
+  host:process.env.HOST_DB,
+  user: process.env.USER_DB,
+  password: process.env.PASSWORD_DB,
+  database: process.env.DATABASE,
+  multipleStatements:true
 })
 
 mysqlConnection.on('release', (connection)=>{
