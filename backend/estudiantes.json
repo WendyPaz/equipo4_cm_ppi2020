@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "correo": "Jandrescruz0123@gmail.com",
+    "contraseña": "julian2312",
+    "placa": "FRG-413",
+    "tipo de vehiculo": "carro"
+  },
+  {
+    "id": 2,
+    "correo": "Danitorres01@gmail.com",
+    "contraseña": "daniel4233",
+    "placa": "MNU-202",
+    "tipo de vehiculo": "carro"
+  },
+  {
+    "id": 3,
+    "correo": "julianarod1@gmail.com",
+    "contraseña": "234juli",
+    "placa": "JHK-433",
+    "tipo de vehiculo": "carro"
+  },
+  {
+    "id": 4,
+    "correo": "sebascc23@gmail.com",
+    "contraseña": "corredor2309",
+    "placa": "WKL-245",
+    "tipo de vehiculo": "carro"
+  },
+  {
+    "id": 5,
+    "correo": "wendypazhernandez@gmail.com",
+    "contraseña": "pazwendy1",
+    "placa": "FXS-89E",
+    "tipo de vehiculo": "moto"
+  },
+  {
+    "id": 6,
+    "correo": "sofi1245@gmail.com",
+    "contraseña": "maria202",
+    "placa": "LMK-23I",
+    "tipo de vehiculo": "moto"
+  },
+  {
+    "id": 7,
+    "correo": "felipeduque23@gmail.com",
+    "contraseña": "pipe022",
+    "placa": "MOR-912",
+    "tipo de vehiculo": "carro"
+  },
+  {
+    "id": 8,
+    "correo": "danivargas145@gmail.com",
+    "contraseña": "daniela145vargas",
+    "placa": "PLM-234",
+    "tipo de vehiculo": "carro"
+  }
+]
