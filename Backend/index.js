@@ -2,10 +2,14 @@ const express = require("express")
 const path = require("path")
 const morgan = require("morgan")
 const app = express()
+const cors = require("cors");
+require('dotenv').config()
 
 //Middlewares
 app.use(morgan('dev'))
 app.use(express.json())
+app.use(express.static('public'));
+app.use(cors({origin: '*'}));
 
 //Routes
 app.use("/api/", require("./routes/usuario.js"))
@@ -20,8 +24,9 @@ app.get("/api", (req, res) => {
 })
 
 app.set("ABSOLUTE_PATH", `${__dirname}/`)
-app.set("puerto", 8081)
 
-app.listen (app.get ("puerto"), () => {
-  console.log(`Servidor corriendo en el puerto ${app.get("puerto")}`)
+app.set('port',process.env.PORT || 5000);
+
+app.listen (app.get ("port"), () => {
+  console.log(`Servidor corriendo en el puerto ${app.get("port")}`)
 })

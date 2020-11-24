@@ -1,5 +1,6 @@
 const util = require('util')
 var mysql = require('mysql');
+require('dotenv').config()
 var mysqlConnection  = mysql.createPool({
   connectionLimit: 10,
   host:"b7kpfpmz9agyxi4ysfhb-mysql.services.clever-cloud.com",
