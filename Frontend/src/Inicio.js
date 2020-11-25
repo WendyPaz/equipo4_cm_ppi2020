@@ -11,7 +11,7 @@ render () {
         <h1 className="display-1">PHYSCO</h1>
        <img src= {logo} width="180px" height="250px"/> 
       </div>
-      <form onSubmit ={(e) => login(e)} >
+      <form>
         <div class="form-group">
           <label for="exampleInputEmail1">Correo Electrónico</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
