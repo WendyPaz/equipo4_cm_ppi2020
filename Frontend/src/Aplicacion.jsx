@@ -5,7 +5,7 @@ import Inicio from "../src/Inicio";
 import Registro from "../src/Registro";
 import Rsoat from "../src/rsoat";
 import Home from "../src/home.js";
-import Soat from "../src/SOAT";
+import Soat from "../src/soat";
 import Misv from "../src/misv";
 //import Layout from './Layout'
 
