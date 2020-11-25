@@ -8,13 +8,7 @@ import Check from './comprobado.png';
 class Soat extends React.Component{
   render() {
     function confirmExit() {
-      var respuesta = confirm("¿Estás seguro de que quieres Salir?");
-
-      if (respuesta == true) {
-        return true;
-      } else {
-        return false;
-      }
+      var respuesta = alert("Acabas de salir de Physco");
     }
     return (
       <div className="bg-primary">
