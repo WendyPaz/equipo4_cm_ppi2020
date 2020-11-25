@@ -24,19 +24,19 @@ class Misv extends React.Component {
          <br/>
          <br/>
          <div class="row">
-         <Link to="/Home" class="btn btn-dark d-block">ABC123</Link> <button  class="btn float-right btn-lg" onClick={confirmDelete}>
+         <Link to="/Home" class="btn btn-dark d-block">ABC123</Link> <button  class="btn float-right btn-lg">
         <img src= {Eliminar} width="35px" height="30px"/> 
        </button> 
 </div>
          <br/>
          <div class="row">
-         <Link to="/Home" class="btn btn-dark d-block">DEF156</Link> <button  class="btn float-right btn-lg" onClick={confirmDelete}>
+         <Link to="/Home" class="btn btn-dark d-block">DEF156</Link> <button  class="btn float-right btn-lg">
         <img src= {Eliminar} width="35px" height="30px"/> 
        </button> 
 </div>
          <br/>
          <div class="row">
-         <Link to="/Home" class="btn btn-dark d-block">KDX361</Link> <button  class="btn float-right btn-lg" onClick={confirmDelete}>
+         <Link to="/Home" class="btn btn-dark d-block">KDX361</Link> <button  class="btn float-right btn-lg">
         <img src= {Eliminar} width="35px" height="30px"/> 
        </button>
 </div>
