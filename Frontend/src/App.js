@@ -16,11 +16,11 @@ render() {
       <br/>
       </div>
       <div className = "text-center">
-        <Link to="/iniciosesion" class ="btn btn-dark btn-lg">Iniciar Sesión</Link>
+        <Link to="/iniciosesion" className ="btn btn-dark btn-lg">Iniciar Sesión</Link>
         <br/>
         <br/>
         <p>O</p>
-        <Link to="/registro" class ="btn btn-dark btn-lg">Registrarse</Link>
+        <Link to="/registro" className ="btn btn-dark btn-lg">Registrarse</Link>
         </div>
         </div>
     </div>
