@@ -11,7 +11,7 @@ class Soat extends React.Component{
       var respuesta = alert("Acabas de salir de Physco");
     }
     return (
-      <div className="bg-primary">
+      <div className="color">
   <div className="container">
      <div className="bg-light text-center">
        <h2 class="float-center">PHYSCO</h2>
@@ -31,14 +31,16 @@ class Soat extends React.Component{
         <img src= {boton} width="40px" height="40px"/> 
        </Link>
 
-      <div class="circulo text-center display-3">120 DÍAS</div>
+      <button class="circulo text-center display-3">CLICK</button>
       <br/>
       <div class="text-center">
-      <p>
-     <img src={Check} width="30px" height="30px"/> 
-
-         Tu SOAT se encuentra al día
-        </p>
+   
+          <br />
+          <div class ="text-center">
+            <p>El soat oscila entre $174.150 y $545.550 para Motos</p>
+            <p>El soat oscila entre $320.850 y $540.750 para Carros</p>
+            <p>El soat oscila entre $397.200 y $747.000 para Taxis</p>
+          </div>
         <br/>
         <br/>
         <br/>

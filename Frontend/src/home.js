@@ -41,25 +41,22 @@ export default class Home extends React.Component {
           <Link to="/registroVehiculo" class="btn float-right btn-lg">
             <img src={boton} width="40px" height="40px" />
           </Link>
-          <h5> Mis dias de Pico y placa son:</h5>
+          <h6> La medida de pico y placa seguirá siendo de 7:00 a 8:30 de la mañana y de 5:30 de la tarde a 7:00 de la noche.</h6>
 
           <ul>
-            <li>
-              Viernes 7:00pm - 8:30am <br /> 5:30pm - 7:00pm
-              <br />
-              Último dígito del número de la placa{" "}
-              <spam class="font-weight-bold bg-warning d-inline-block">
-                0-1-2-3
-              </spam>
-            </li>
-            <li>
-              Miércoles 7:00pm - 8:30am <br /> 5:30pm - 7:00pm
-              <br />
-              Último dígito del número de la placa{" "}
-              <spam class="font-weight-bold bg-warning d-inline-block">
-                2-3-4-5
-              </spam>
-            </li>
+          <li>Lunes: vehículos de placa terminada en: 8-9-0-1</li>
+ 
+
+          <li>Martes: vehículos de placa terminada en: 2-3-4-5</li>
+  
+ 
+          <li>Miércoles: vehículos de placa terminada en: 6-7-8-9</li>
+  
+ 
+          <li>Jueves: vehículos de placa terminada en: 0-1-2-3</li>
+  
+ 
+           <li>Viernes: vehículos de placa terminada en: 4-5-6-7</li>
           </ul>
           <p class="text-center font-weight-bold">
             ¡Recuerda, los días que tengas pico y placa puedes acceder a los
