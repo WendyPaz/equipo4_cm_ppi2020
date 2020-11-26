@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 class Misv extends React.Component {
   render() {
     function confirmExit() {
-      var respuesta = alert("Acabas de eliminar un vehículo");
+     alert("Acabas de eliminar un vehículo");
       }
 
 

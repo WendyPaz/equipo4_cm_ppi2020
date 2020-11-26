@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from './Paz.png';
 import {Link}from 'react-router-dom';
 import './styles.css';
 import boton from './plus.png';
-import Check from './comprobado.png';
+
 
 class Soat extends React.Component{
   render() {
     function confirmExit() {
-      var respuesta = alert("Acabas de salir de Physco");
+       alert("Acabas de salir de Physco");
     }
     return (
       <div className="color">
@@ -28,7 +27,7 @@ class Soat extends React.Component{
        <br/>
        <br/>
        <Link to="/registrovehiculo" class="btn float-right btn-lg">
-        <img src= {boton} width="40px" height="40px"/> 
+        <img src={boton} width="40px" height="40px"/> 
        </Link>
 
       <button class="circulo text-center display-3">CLICK</button>

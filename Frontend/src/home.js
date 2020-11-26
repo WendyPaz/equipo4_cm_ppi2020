@@ -5,7 +5,7 @@ import boton from "./plus.png";
 export default class Home extends React.Component {
   render() {
     function confirmExit() {
-    var respuesta = alert("Acabas de salir de Physco");
+     alert("Acabas de salir de Physco");
     }
     
     return(

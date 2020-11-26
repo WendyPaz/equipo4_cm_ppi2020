@@ -4,7 +4,7 @@ import './styles.css';
 class Rsoat extends React.Component {
   render() {
     function confirmExit() {
-      var respuesta = alert("Acabas de Salir de Physco");
+      alert("Acabas de Salir de Physco");
       }
     return (
       <div className="color">
